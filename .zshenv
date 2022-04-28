@@ -1,3 +1,4 @@
+export PATH=$PATH:~/sh
 export EDITOR=nvim
 export TERMINAL=alacritty
 export BROWSER=vimb
