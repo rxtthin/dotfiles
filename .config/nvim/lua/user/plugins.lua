@@ -1,8 +1,6 @@
 vim.cmd('packadd packer.nvim')
 require('packer').startup(
 	function()
-		use 'morhetz/gruvbox'
-
 		use {
 			'mattn/emmet-vim',
 			config = "require('user.emmet')"
@@ -17,8 +15,8 @@ require('packer').startup(
 				'hrsh7th/cmp-nvim-lsp',
 				'hrsh7th/cmp-vsnip',
 				'hrsh7th/vim-vsnip',
-				'hrsh7th/cmp-path' 
-			} 
+				'hrsh7th/cmp-path'
+			}
 		}
 		use {
 			'nvim-treesitter/nvim-treesitter',
@@ -33,6 +31,7 @@ require('packer').startup(
 		use {
 			'nvim-telescope/telescope.nvim',
 			requires = 'nvim-lua/plenary.nvim',
+			config = "require('user.telescope')"
 		}
 		use {
 			'kyazdani42/nvim-tree.lua',
@@ -46,7 +45,7 @@ require('packer').startup(
 		}
 		use {
 			'navarasu/onedark.nvim',
-			config = "require('user.onedark')" 
+			config = "require('user.onedark')"
 		}
 		use {
 			'voldikss/vim-floaterm'
