@@ -10,6 +10,7 @@ alias die="sudo poweroff"
 alias rbt="sudo reboot"
 
 alias v="$EDITOR"
+alias vim="$EDITOR"
 alias s="sudo"
 alias mi="make install"
 alias ll="ls -lA"
