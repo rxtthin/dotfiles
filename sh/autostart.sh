@@ -2,7 +2,6 @@
 
 programs=(
 	"dwmblocks"
-	"volumeicon"
 	"dunst"
 	"polkit-dumb-agent"
 );
